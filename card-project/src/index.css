@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+.parent{
+  min-height: 100vh;
+  width: 100%;
+  background-color: #111;
+  padding: 30px;
+  gap:30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  height: 350px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top img{
+  height:50px;
+  width: 50px;
+  border: 1px solid #dadada;
+  border-radius: 50%;
+}
+.top button{
+   display: flex;
+   align-items: center;
+   border: 1px solid #dadada;
+   font-size: 14px;
+   padding: 4px 8px;
+   border-radius: 5px;
+   gap: 3px;
+   background-color: transparent;
+   color: rgb(180, 178, 178);
+}
+
+.center{
+  margin-top: 20px;
+}
+.center h3 span{
+  color: grey;
+  font-size:x-small;
+}
+.center div{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.center div h4{
+  font-size:small;
+  background-color: rgb(207, 206, 206);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  margin-top:90px;
+  border-top: 1px solid #000;
+  padding: 10px 0;
+}
+.bottom div p{
+  color: rgb(207, 205, 205);
+}
+.bottom button{
+  height: 30px;
+  padding: 3px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  size: 30px;
+}
